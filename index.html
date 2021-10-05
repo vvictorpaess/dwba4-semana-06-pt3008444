@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- configura a codificação de caracteres do navegador para o UTF-8-->
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <!-- Adiciona o ícone de aba de navegador-->
+    <title>HOME - IFSP - Pirituba</title>
+    <!-- Adiciona o título na aba do navegador-->
+    <script src="js/disabling.js"></script>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="menuhorizontal">
+            <ul>
+                <li><a href="index.html" target="_top">HOME</a></li>
+                <li><a href="eventos.html" target="_top">EVENTOS</a></li>
+                <li><a href="contato.html" target="_top">CONTATO</a></li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">CURSOS</a>
+                    <div class="dropdown-content">
+                        <a href="ads.html" target="_top">Análise e Desenvolvimento de Sistemas</a>
+                        <a href="#" target="_top">Engenharia de Produção</a>
+                    </div>
+                </li>
+                <li><a href="entrar.html" target="_top">ENTRAR</a></li>
+                <li id='about'><a href="sobre.html" target="_top">SOBRE</a></li>
+
+            </ul>
+            <img src="Imagens/Logo.jpg" alt=" " />
+        </div>
+    </header>
+
+    <main>
+        <!-- indica que é o conteúdo principal dessa página -->
+
+        <aside>
+            <!-- indica que é um conteúdo a parte do princial, auxiliar-->
+            <h1 id="indexH1"> Acontece no IFSP! </h1>
+            <figure>
+                <img src="Imagens/SEJA_RARO.jpg" alt="Palestra Seja Raro" width="50%" height="50%" id="figure">
+                <figcaption>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+            </figure>
+        </aside>
+
+        <section style="text-align: center;">
+            <h1 id="indexH1">Conheça os desafios de inovação </h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <br><br>
+        <object width="100%" height="200px" data="rodape.html"></object>
+
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+</body>
+
+</html>
